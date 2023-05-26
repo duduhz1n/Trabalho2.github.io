@@ -1,0 +1,182 @@
+/* Estilos básicos */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+
+
+/* Estilos para o conteúdo principal */
+.mainservicos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+.imghome {
+	margin-left: 900px;
+	margin-top: 30px;
+	width: 60px;
+}
+
+section {
+	background-color: #015bac;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	max-width: 400px;
+	color: white;
+}
+
+section h2 {
+	margin-top: 0;
+	color: white;
+	margin-left: 10;
+	
+}
+
+section ul {
+	margin-top: 0;
+}
+
+
+/* Para deixar a imagem responsiva */
+.responsive-img {
+	max-width: 100%;
+	height: auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #444;
+}
+
+.iconeIMG{
+	width: 40px;
+	height: 40px;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+button {
+ color: white;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #015bac;
+ background-color: #015bac;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+button:active {
+ color: #666;
+ box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+
+.h2bg {
+	color: #015bac;
+}
+
+/* Rodape */
+.rodape {
+	background-color: #2e2e2e;
+	color: white;
+	padding: 5px;
+}
+
+.links2{
+	margin-left: 160px;
+	font-size: 12px;
+}
+
+.mainRodape{
+	display:flex;
+}
+
+.FontAcompanhe {
+	margin-left: 810px;
+}
+
+.navRedes {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin-left:90px;
+}
+
+.facebook{
+	margin-left:0px;
+	width:17px;
+}
+
+.twitter{
+	width:30px;
+	margin-left:0px;
+}
+
+.instagram{
+	width:37px;
+	margin-left:0px;
+}
+
+.linkedin{
+	width:27px;
+	margin-left:0px;
+}
+
+.senaipretro{
+	height:50px;
+}
+
+.endereco{
+	margin-left:60px;
+}
+
+.logo{
+	margin-top:16px;
+	margin-left:35px;
+	margin-bottom: 50px;
+}
+
+.fds{
+	font-size:14px;
+}
