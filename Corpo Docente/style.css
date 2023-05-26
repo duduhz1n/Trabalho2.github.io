@@ -1,0 +1,495 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.maincorpo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background-color: #4169E1;
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px 5px rgba (0, 0, 0, 0.1);
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
+	height: 250px;
+}
+
+section h2 {
+	margin-top: 0;
+	text-align: center;
+	color:white;	
+}
+
+section p {
+	margin-top: 0;
+	text-align: center;
+	font-size: 20px;
+	color:white;
+
+}
+
+section img {
+	margin-left: 70px;
+	margin-bottom: 20px;
+	width:150px;
+}
+
+.topo {
+	display: flex;
+	flex-wrap: nowrap;
+	width:100%;
+	justify-content: center;
+	flex-direction:row;
+	align-items:center;
+	align-content:center;
+	background-color: #4169E1;
+	height: 70px;
+	margin-bottom:30px;
+	font-family: Arial, sans-serif;
+
+}
+h1{
+	font-size:32px;
+	text-align:center;
+	color:white;	
+	padding: 0px;
+}
+
+.topo{
+	margin-top: 30px;
+}
+
+.Instrutores{
+	margin-top:20px;
+}
+
+/* Rodape */
+.rodape {
+	background-color: #2e2e2e;
+	color: white;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+.links2{
+	margin-left: 160px;
+	font-size: 12px;
+}
+
+.mainRodape{
+	display:flex;
+}
+
+.FontAcompanhe {
+	margin-left: 810px;
+}
+
+.navRedes {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	margin-left:90px;
+}
+
+.facebook{
+	margin-left:0px;
+	width:17px;
+}
+
+.twitter{
+	width:30px;
+	margin-left:0px;
+}
+
+.instagram{
+	width:37px;
+	margin-left:0px;
+}
+
+.linkedin{
+	width:27px;
+	margin-left:0px;
+}
+
+.senaipretro{
+	height:50px;
+}
+
+.endereco{
+	margin-left:60px;
+}
+
+.logo{
+	margin-top:16px;
+	margin-left:35px;
+	margin-bottom: 50px;
+}
+
+.fds{
+	font-size:14px;
+}
+
+.fotosinstrutores {
+	width: 160px;
+}
+
+/* Cabeçalho */
+ header {
+	background-color: none;
+	color: #595756;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+ .abas {
+	background-color: #015bac;
+	color: ;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	width: 98.7%;
+}
+
+
+
+section img {
+	width: 40px;
+}
+input[type="submit"]:hover {
+	background-color: #444;
+}
+label img{
+	width:20px;
+	align:left;
+	margin-left:0px;
+	margin-top:2px;
+}
+
+b img{
+	width:30px;
+}
+i img{
+	width:40px;
+}
+
+nav {
+	display: flex;
+}
+.searchbar {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: white;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 530px;
+}
+
+.searchbar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223,225,229,0);
+}
+
+.searchbar-wrapper {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+}
+
+.searchbar-left {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-icon-wrapper {
+  margin: auto;
+}
+
+.search-icon {
+  margin-top: 3px;
+  color: #9aa0a6;
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+}
+
+.searchbar-icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.searchbar-center {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.searchbar-input-spacer {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  height: 34px;
+  font-size: 16px;
+}
+
+.searchbar-input {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, .87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.searchbar-right {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row
+}
+
+.searchbar-clear-icon {
+  margin-right: 12px
+}
+
+.voice-search {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 2.8em;
+}
+
+/*bg*/
+/*txt*/
+/*success*/
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  top: 20px;
+  left: 20px;
+}
+
+.buttons button {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  margin: 10px;
+  color: #015bac;
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.buttons button:before, .buttons button:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #015bac;
+  transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button:before {
+  right: 0;
+  top: 0;
+  transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button:after {
+  left: 0;
+  bottom: 0;
+}
+
+.buttons button span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.buttons button span:before, .buttons button span:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background-color: #015bac;
+  transition: all 0.3s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button span:before {
+  right: 0;
+  top: 0;
+  transition: all 0.5s cubic-bezier(0.35, 0.1, 0.25, 1);
+}
+
+.buttons button span:after {
+  left: 0;
+  bottom: 0;
+}
+
+.buttons button p {
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons button p:before, .buttons button p:after {
+  position: absolute;
+  width: 100%;
+  transition: all 0.4s cubic-bezier(0.35, 0.1, 0.25, 1);
+  z-index: 1;
+  left: 0;
+}
+
+.buttons button p:before {
+  content: attr(data-title);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.buttons button p:after {
+  content: attr(data-text);
+  top: 150%;
+  color: #015bac;
+}
+
+.buttons button:hover:before, .buttons button:hover:after {
+  width: 100%;
+}
+
+.buttons button:hover span {
+  z-index: 1;
+}
+
+.buttons button:hover span:before, .buttons button:hover span:after {
+  height: 100%;
+}
+
+.buttons button:hover p:before {
+  top: -50%;
+  transform: rotate(5deg);
+}
+
+.buttons button:hover p:after {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.buttons button.start {
+  background-color: #015bac;
+  box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.buttons button.start p:before {
+  top: -50%;
+  transform: rotate(5deg);
+}
+
+.buttons button.start p:after {
+  color: white;
+  transition: all 0s ease;
+  content: attr(data-start);
+  top: 50%;
+  transform: translateY(-50%);
+  animation: start 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes start {
+  from {
+    top: -50%;
+  }
+}
+
+.buttons button.start:hover:before, .buttons button.start:hover:after {
+  display: none;
+}
+
+.buttons button.start:hover span {
+  display: none;
+}
+
+.buttons button:active {
+  outline: none;
+  border: none;
+}
+
+.buttons button:focus {
+  outline: 0;
+}
+
+a{
+	color:white
+}
+
+.cabecalho4{
+	margin-left: 80px;
+	margin-right:0px;
+}
+
+.cabecalho5{
+	margin-right: 100px;
+}
